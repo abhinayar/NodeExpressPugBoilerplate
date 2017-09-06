@@ -41,6 +41,11 @@ To rapidly add to the base.pug file, extend bodyContent (assumes pug knowledge)
 
 Served via Google CDN with local fallback options in the /js/vendor folder
 
+### Bootstrap 4
+[Bootstrap](http://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+
+Served via cdnjs with local fallback in the /css/vendor folder
+
 ### Modernizr, Normalize.CSS, Console.Shim, etc.
 Includes many popular tools for cross-browser compatibility. Feel free to add and remove as you wish, these are my most common GO-TO's
 
