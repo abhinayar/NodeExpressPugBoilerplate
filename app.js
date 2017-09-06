@@ -93,17 +93,10 @@ if (app.get('env') === 'development') {
   });
 }
 app.use(function (err, req, res, next) { // eslint-disable-line no-unused-vars
-  var user = req.session.user || null;
   res.status(err.status || 404);
   // log the error for heroku logs
   console.log('error', err);
-  res.render('errorProduction', {
-    page : {
-      title : 'Error',
-      bodyClass : 'errorPage'
-    },
-    user : user
-  });
+  res.render('error'});
 });
 
 // serve the app on PORT variable
