@@ -96,7 +96,7 @@ app.use(function (err, req, res, next) { // eslint-disable-line no-unused-vars
   res.status(err.status || 404);
   // log the error for heroku logs
   console.log('error', err);
-  res.render('error'{});
+  res.render('error', {});
 });
 
 // serve the app on PORT variable
