@@ -63,10 +63,10 @@ app.use(favicon(path.join(__dirname, 'public', 'images', 'icons', 'favicon-96.pn
 app.use(logger('dev')); // uses morgan/logger to log output to terminal
 app.use(bodyParser.json()); // uses bodyParser to parse req
 app.use(bodyParser.urlencoded({ extended : true })); // Parses the text as URL encoded data, extended extends UTF chars
-app.use(cookieParser(process.env.SECRET)); // sets the session secret
+app.use(cookieParser('secret')); // sets the session secret
 // set up session storage (we dont really need this for this app, no login)
 app.use(session({
-  secret: process.env.SECRET,
+  secret: 'secret',
   resave: false,
   saveUninitialized: true,
   cookie: { secure: true }
