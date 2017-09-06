@@ -60,6 +60,9 @@ MS-App icons, Apple touch icons, Favicons, all templated and correctly sized/inc
 `node app` or `nodemon app` (for hot reloading)
 ### Deploy to Heroku
 `heroku create` or `heroku create ______(#{appName})`
+
 `git add .` or `git add --all`
+
 `git commit -m "Heroku Push"`
+
 `git push heroku master`
