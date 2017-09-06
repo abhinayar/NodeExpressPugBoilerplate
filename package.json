@@ -4,7 +4,7 @@
   "description": "A boilerplate, opinionated template for quickly prototyping nodejs applications. No fancy Webpack, grunt, gulp, etc. you'll have to add that in. This is for rapid prototyping and not for BUILDING apps, look up tutorial on how to do that :) Enjoy!",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm start"
   },
   "repository": {
     "type": "git",

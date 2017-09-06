@@ -16,9 +16,15 @@ This is for rapid prototyping and development. If requests come in I will consid
 
 # Features
 
+## Heroku
+[Heroku]](https://www.heroku.com) is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. Our platform is elegant, flexible, and easy to use, offering developers the simplest path to getting their apps to market.
+
+The repo. includes a procfile which makes it easy to deploy to Heroku. See Usage for more details.
+
 ## Back-End
 ### Express
 [Express](http://expressjs.com/) is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+
 ### Pug
 This application boilerplate is registered with [Pug](https://pugjs.org/api/getting-started.html)(ex Jade) view engine.
 
@@ -51,4 +57,6 @@ MS-App icons, Apple touch icons, Favicons, all templated and correctly sized/inc
 
 # Scripts
 ### Usage
+`node app` or `nodemon app` (for hot reloading)
+### Deploy to Heroku
 `node app` or `nodemon app` (for hot reloading)
