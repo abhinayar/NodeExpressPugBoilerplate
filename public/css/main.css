@@ -1,0 +1,85 @@
+/*
+CSS boilerplate for NodeJSExpressPugBoilerplate
+By Abhi Nayar
+MIT Licence
+https://linkedin.com/in/abhinayar
+Any questions feel free to message me^.
+
+Fonts:
+  Roboto
+
+Colors:
+  Your color library goes here
+  Light
+  Dark
+  Prim
+  Sec
+*/
+
+/* Undo prefetch damage */
+svg,
+img {
+  display: block;
+}
+
+/* Generic Template Styles */
+.bold {
+  font-weight: 700;
+} .light {
+  font-weight: 300;
+} .italic {
+  font-style: italic;
+} .prim {
+  font-family: 'Rubik', sans-serif;
+} .sec {
+  font-family: 'Roboto', sans-serif;
+} .main {
+  font-weight: bold;
+} .sub {
+  font-weight: normal;
+} .block {
+  display: block;
+} .inline-block {
+  display: inline-block;
+} .inline {
+  display: inline;
+}
+
+.bg-center {
+  background-position: center center;
+} .bg-left {
+  background-position: left center;
+} .bg-right {
+  background-position: right center;
+} .bg-fixed {
+  background-attachment: fixed;
+} .bg-scroll {
+  background-attachment: scroll;
+} .bg-cover {
+  background-size: cover;
+} .bg-contain {
+  background-size: contain;
+} .bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+/* Code your site for min-width: 0px first */
+
+/* Now add mobile-first CSS */
+@media (min-width: 320px) {
+
+} @media (min-width: 540px) {
+
+} @media (min-width: 768px) {
+
+} @media (min-width: 868px) {
+
+} @media (min-width: 992px) {
+
+} @media (min-width: 1120px) {
+
+} @media (min-width: 1440px) {
+
+} @media (min-width: 1600px) {
+
+}
